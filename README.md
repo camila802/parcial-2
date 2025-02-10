@@ -8,6 +8,9 @@ for i in lista :
         j += 1
 print (f"el caracter {n} se encuentra {j} veces")
 
+- para este ejercicio lo que hice fue crear una variable "lista" en la cual el usuario pudiera ingresar los elementos que quiera para despues pedir que encuentre el elemneto que desea para poder identificar cual elemento es el que se repite, al colocar n == i lo que le estoy pidiendo es encontrar un elemento en n que sea igual a un elemento de i para poder determinar si se repiten para despues colocar que el carcater de n esta x veces en j.
+  
+
 ##un programa que determine si en una cadena se encuentra caracteres con dos o mas vocales, si la cadena existe imprimirla si no imprimir no existe
 def obtener_vocales(frase):
     vocales = "a, e, i, o, u" 
@@ -16,6 +19,8 @@ def obtener_vocales(frase):
 texto = "avena"
 print (obtener_vocales(texto))
 print (len(obtener_vocales(texto)))
+
+-
 
 ### un programa que en dos listas determine que elementos tiene la primera que la segunda no tenga
 lista1 = [1, 2, 3, 4, 5]
